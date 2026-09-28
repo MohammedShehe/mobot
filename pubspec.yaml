@@ -1,0 +1,32 @@
+name: mobot
+description: "MO - a human-robot assistant powered by Groq, with on-device chat history."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  permission_handler: ^11.3.1
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.0
+  geolocator: ^13.0.2
+  device_calendar: ^4.3.3
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+  wakelock_plus: ^1.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo_light.png
+    - assets/logo_dark.png
